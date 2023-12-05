@@ -249,7 +249,6 @@ textarea {
         margin-bottom: 32px;
 }
 .portfolio {
-    width: 1440px;
     padding: 120px 0;
 }
 .portfolio-title{
@@ -266,13 +265,13 @@ textarea {
 .portfolio-list{
     background-color: #FFF;
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
 }
 .portfolio-item{
     background-color: #FFF;
     border: 1px solid #E7E9FC;
-    
+    border-top: none;
 }
 .portfolio-item-title{
     color: #2E2F42;
@@ -297,7 +296,7 @@ textarea {
 }
 .footer{
     background-color: #2E2F42;
-    padding: 101.5px 0;
+    padding: 100px 0;
 }
 .footer-logo-white{
     color: #f4f4fd;
@@ -316,6 +315,8 @@ textarea {
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        display: inline-block;
+        margin: 16px 0;
 }
 .footer-text{
     color: #F4F4FD;
@@ -324,4 +325,6 @@ textarea {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        width: 264px;
+        
 }
