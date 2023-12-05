@@ -172,8 +172,14 @@ textarea {
 .hero-btn:focus{
     background-color: #404BBF;
 }
+
+.feature {
+    padding: 120px auto;
+}
 .feature-list{
     background-color: #FFF;
+   display: flex;
+   gap: 24pxs;
 }
 .feature-item{
     background-color: #FFF;
