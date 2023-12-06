@@ -269,6 +269,13 @@ textarea {
 }
 .portfolio {
     padding: 120px 0;
+    width: calc((100% - 48px) / 3);
+}
+
+.portfolio-about {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 .portfolio-title{
     color: #2E2F42;
@@ -286,12 +293,10 @@ textarea {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
-    justify-content: center;
 }
 .portfolio-item{
     background-color: #FFF;
-    border: 1px solid #E7E9FC;
-    border-top: none;
+    
 }
 .portfolio-item-title{
     color: #2E2F42;
@@ -300,9 +305,7 @@ textarea {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
-        margin-top: 32px;
         margin-bottom: 8px;
-        padding: 0 16px;
 }
 .portfolio-item-descr{
     color: #434455;
@@ -311,8 +314,6 @@ textarea {
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
-        margin-bottom: 32px;
-        padding: 0 16px;
 }
 .footer{
     background-color: #2E2F42;
