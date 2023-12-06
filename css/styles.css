@@ -68,9 +68,6 @@ textarea {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-container{
-    display: flex;
-}
 
 .header-nav {
     display: flex;
@@ -223,6 +220,7 @@ textarea {
     background-color: #F4F4FD;
     display: flex;
     gap: 24px;
+    
 }
 .team-item{
     background-color: #FFF;
