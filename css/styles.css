@@ -61,12 +61,15 @@ textarea {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 }
 
 .header {
     display: flex;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container{
+    display: flex;
 }
 
 .header-nav {
