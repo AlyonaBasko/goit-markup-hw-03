@@ -32,6 +32,10 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -61,6 +65,8 @@ textarea {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+/*HEADER*/
 
 .header {
     display: flex;
@@ -140,10 +146,11 @@ textarea {
     color: #404bbf;
 }
 
+/*HERO*/
 
 .hero{
     display: block;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 600px;
     flex-shrink: 0;
     background-color:#2E2F42;
@@ -188,6 +195,8 @@ textarea {
     background-color: #404BBF;
 }
 
+/*FEATURE*/
+
 .feature {
     padding: 120px 0;
 }
@@ -219,6 +228,9 @@ textarea {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+
+/*TEAM*/
+
 .team{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -271,9 +283,11 @@ textarea {
         letter-spacing: 0.02em;
         text-align: center;
 }
+
+/*PORTFOLIO*/
+
 .portfolio {
     padding: 120px 0;
-    width: calc((100% - 48px) / 3);
 }
 .portfolio-list {
     background-color: #FFF;
@@ -285,7 +299,7 @@ textarea {
 
 .portfolio-item {
     background-color: #FFF;
-
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-about {
@@ -295,8 +309,8 @@ textarea {
 }
 .portfolio-title{
     color: #2E2F42;
-        text-align: center;
         font-family: Roboto, sans-serif;
+        text-align: center;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -322,6 +336,9 @@ textarea {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+
+/*FOOTER*/
+
 .footer{
     background-color: #2E2F42;
     padding: 100px 0;
